@@ -1,0 +1,11 @@
+./sample_data/spectram/test/bassoon/bassoon01_2400.png||1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0||./sample_data/img_256/test/bassoon/bassoon01_2400.jpg
+./sample_data/spectram/test/cello/cello01_1400.png||0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0||./sample_data/img_256/test/cello/cello01_1400.jpg
+./sample_data/spectram/test/clarinet/clarinet01_2400.png||0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0||./sample_data/img_256/test/clarinet/clarinet01_2400.jpg
+./sample_data/spectram/test/flute/flute01_1400.png||0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0||./sample_data/img_256/test/flute/flute01_1400.jpg
+./sample_data/spectram/test/flute/flute01_2400.png||0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0||./sample_data/img_256/test/flute/flute01_2400.jpg
+./sample_data/spectram/test/oboe/oboe04_1400.png||0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0||./sample_data/img_256/test/oboe/oboe04_1400.jpg
+./sample_data/spectram/test/oboe/oboe04_2400.png||0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0||./sample_data/img_256/test/oboe/oboe04_2400.jpg
+./sample_data/spectram/test/trombone/trombone02_2400.png||0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0||./sample_data/img_256/test/trombone/trombone02_2400.jpg
+./sample_data/spectram/test/viola/viola01_1400.png||0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0||./sample_data/img_256/test/viola/viola01_1400.jpg
+./sample_data/spectram/test/viola/viola01_2400.png||0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0||./sample_data/img_256/test/viola/viola01_2400.jpg
+./sample_data/spectram/test/violin/violin06_2400.png||0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1||./sample_data/img_256/test/violin/violin06_2400.jpg
