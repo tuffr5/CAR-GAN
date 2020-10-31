@@ -5,8 +5,8 @@ import numpy as np
 import ntpath
 from . import util, html
 from subprocess import Popen, PIPE
-from scipy.misc import imresize
 import visdom
+from PIL import Image
 
 if sys.version_info[0] == 2:
     VisdomExceptionBase = Exception
@@ -38,9 +38,9 @@ def save_images(webpage, visuals, audio_path, aspect_ratio=1.0, width=256):
         save_path = os.path.join(image_dir, image_name)
         h, w, _ = im.shape
         if aspect_ratio > 1.0:
-            im = imresize(im, (h, int(w * aspect_ratio)), interp='bicubic')
+            im = np.array(Image.fromarray(im).resize((h, int(w * aspect_ratio)), interp='bicubic'))
         if aspect_ratio < 1.0:
-            im = imresize(im, (int(h / aspect_ratio), w), interp='bicubic')
+            im = np.array(Image.fromarray(im).resize((int(h / aspect_ratio), w), interp='bicubic'))
         util.save_image(im, save_path)
 
         ims.append(image_name)
